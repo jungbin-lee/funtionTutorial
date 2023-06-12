@@ -84,6 +84,8 @@ class MainActivity : ComponentActivity() {
 
 
         Log.d(TAG,"MAINACTIVITY=ONCREATE() called")
+        someLamda
+        someFuntion()
         setContent {
             FuntionTutorialTheme {
                 // A surface container using the 'background' color from the theme
